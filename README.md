@@ -36,6 +36,12 @@ Benar! Ini flag-mu: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bm
 - Flag: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bmxnNYiYxCiUqBudYOAOmDDIKK}
 
 ## Pegawai Negeri Sebelah (nc 10.15.42.60 53000)
+
+![image](https://github.com/user-attachments/assets/6680c49f-0906-48b1-964b-629274f7c143)
+![image](https://github.com/user-attachments/assets/afe69c1a-71a1-4002-99ab-19295815338e)
+![image](https://github.com/user-attachments/assets/fb75ccaa-634c-4964-a332-9edfa821b405)
+![image](https://github.com/user-attachments/assets/daa8108c-6bb8-49f6-b9a0-8d6d7305cd6c)
+
 ```
 =====  Pegawai Negeri Sebelah =====
 Note: You can exit anytime by typing 'exit'
