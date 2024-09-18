@@ -145,7 +145,6 @@ Format: string ex. h4lo wor1d
 > g0tchu n0w l1ttl3 m0us3
 Benar! Ini flag-mu: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_lUhvSdRHEPjx2SGkhL3AT4DiNG0xdtHFNq9LVBDvec7aLxCwkA9qTCHU}
 ```
- ![WhatsApp Image 2024-09-18 at 20 38 22_5ef5c07e](https://github.com/user-attachments/assets/93d4064a-c62d-4114-a67b-a89837b79b16)
 ![WhatsApp Image 2024-09-18 at 21 19 39_f3aa4818](https://github.com/user-attachments/assets/8a8073cc-42e8-422c-9c5c-7391e31e5c7a)
 
 ```
