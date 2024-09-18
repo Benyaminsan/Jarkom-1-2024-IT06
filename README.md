@@ -110,3 +110,19 @@ QUIT
 ![WhatsApp Image 2024-09-18 at 21 18 51_201ac555](https://github.com/user-attachments/assets/f0eb0faa-e830-46cc-b374-04901745cebc)
 
 - Flag: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_lUhvSdRHEPjx2SGkhL3AT4DiNG0xdtHFNq9LVBDvec7aLxCwkA9qTCHU}
+
+# FTP Login (nc 10.15.42.60 49000)
+
+```
+USER sn34ky
+
+331 Please specify the password.
+
+PASS sup3rsn1ff3r
+
+230 Login successful.
+
+PORT 172,21,80,1,253,130
+
+200 PORT command successful. Consider using PASV.
+```
