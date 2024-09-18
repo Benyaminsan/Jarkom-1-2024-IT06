@@ -38,8 +38,11 @@ Benar! Ini flag-mu: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bm
 ## Pegawai Negeri Sebelah (nc 10.15.42.60 53000)
 
 ![image](https://github.com/user-attachments/assets/6680c49f-0906-48b1-964b-629274f7c143)
+
 ![image](https://github.com/user-attachments/assets/afe69c1a-71a1-4002-99ab-19295815338e)
+
 ![image](https://github.com/user-attachments/assets/fb75ccaa-634c-4964-a332-9edfa821b405)
+
 ![image](https://github.com/user-attachments/assets/daa8108c-6bb8-49f6-b9a0-8d6d7305cd6c)
 
 ```
@@ -94,6 +97,11 @@ itu ya yg disubmit yang ada e.petiknya
 ## Illegal Breakthrough (nc 10.15.42.60 46000)
 
 ![WhatsApp Image 2024-09-18 at 20 59 46_35a90d67](https://github.com/user-attachments/assets/17bb26ae-d60b-4e97-868d-249bfb524650)
+
+![WhatsApp Image 2024-09-19 at 00 01 57_6b14430f](https://github.com/user-attachments/assets/32f6f486-4257-4e2f-9ec6-b7d8f3258ac1)
+
+![WhatsApp Image 2024-09-19 at 00 02 41_d0269ba7](https://github.com/user-attachments/assets/2c6feec5-45e5-4f69-b029-3f4341e6f4d4)
+
 
 ![WhatsApp Image 2024-09-18 at 20 54 23_cd6f8643](https://github.com/user-attachments/assets/5ae06938-554d-4f39-b7bc-86329f5216d7)
 
