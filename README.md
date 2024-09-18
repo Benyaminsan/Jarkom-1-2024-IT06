@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5adc829a-41a1-4779-8ccd-cbc025f16928)# Jarkom-1-2024-IT06
+# Jarkom-1-2024-IT06
 ## Anggota kelompok
    ### Benjamin Khawarizmi Habibi 5027231078
    ### Callista Meyra Azizah 5027231060
@@ -42,7 +42,7 @@ Benar! Ini flag-mu: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bm
 
 ![image](https://github.com/user-attachments/assets/a2047192-9509-4469-9f1f-1882eccfcc31)
 
-
+![image](https://github.com/user-attachments/assets/5adc829a-41a1-4779-8ccd-cbc025f16928)
 
 
 - Flag: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bmxnNYiYxCiUqBudYOAOmDDIKK}
