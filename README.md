@@ -226,4 +226,7 @@ PORT 172,21,80,1,253,130
 
 200 PORT command successful. Consider using PASV.
 ```
+
+![image](https://github.com/user-attachments/assets/89e0afff-5d9e-41f4-a604-211374434269)
+
 - Flag: JarkomIT{n0t_s0_s3cur3_ftp_3ZvMs3ZibbtrySJYxKgvG72wyL0ig3hhssiawM0R2OlrquvDwBDLG1N}
