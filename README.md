@@ -11,6 +11,7 @@
 ```
 ===== Advanced Sanity Check =====
 Note: You can exit anytime by typing 'exit'
+
 Apa username pengirim?
 Format: username
 > JaneD03
@@ -35,12 +36,43 @@ Benar! Ini flag-mu: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bm
 - Flag: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bmxnNYiYxCiUqBudYOAOmDDIKK}
 
 ## Pegawai Negeri Sebelah (nc 10.15.42.60 53000)
+```
+=====  Pegawai Negeri Sebelah =====
+Note: You can exit anytime by typing 'exit'
+
+Siapa yang memiliki password nNnM%coQuF?
+Format: String
+> Vero Tampubolon
+Apa jabatan dari Taufan Kuswandari?
+Format: String
+> Analis Kebijakan
+Siapa yang paling awal di list?
+Format: String
+> Cici Mustofa
+Apa password paling akhir dari list?
+Format: String
+> RyxaJPv^yF
+Benar! Ini flag-mu: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_d4EjysuhNbOdCX7LoT4Z9gnSaL337FHGQYe5n3ieKFehKMpDry7cM4h}
+```
+
 - Flag: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_d4EjysuhNbOdCX7LoT4Z9gnSaL337FHGQYe5n3ieKFehKMpDry7cM4h}
 
 ## EZ (nc 10.15.42.60 54000)
 
 ![WhatsApp Image 2024-09-18 at 20 40 04_1be7cca8](https://github.com/user-attachments/assets/8507152b-8e12-4da8-9807-06dc43392a55)
 
+```
+===== EZ =====
+Note: You can exit anytime by typing 'exit'
+
+Temukan jawaban dari log tersebut
+Format: string ex. kata kata
+> jawabannya jawaban
+Port berapa yang digunakan service tersebut
+Format: xxxx: ex. 443
+> 1234
+Benar! Ini flag-mu: JarkomIT{BiAr_aman_Pake_sSh_6kgAozQUg7KBsvScORpWgISPs3zepqu7yIJd9bjAg6alxXZeTwbeEZ}
+```                
 ```
 halo mas wkwkw
 pesan: submitini ke nc
@@ -79,6 +111,34 @@ Format: string
 
 ## Surprise (nc 10.15.42.60 48500)
 
+```
+===== Surprise =====
+Note: You can exit anytime by typing 'exit'
+
+Apa service yang digunakan pada FTP server?
+Format: service ver 
+ex. proFTPd 1.1.0
+> FTPd 3.0.3
+Jawaban salah
+
+Apa service yang digunakan pada FTP server?
+Format: service ver 
+ex. proFTPd 1.1.0
+> vsFTPd 3.0.3
+
+Apa nama file yang dikirim oleh attacker?
+Format: filename.extension
+> Jawaban salah
+
+Apa nama file yang dikirim oleh attacker?
+Format: filename.extension
+> g0tcha.cpp
+Apa pesan rahasia yang ditinggalkan oleh attacker?
+Format: string ex. h4lo wor1d
+> g0tchu n0w l1ttl3 m0us3
+Benar! Ini flag-mu: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_lUhvSdRHEPjx2SGkhL3AT4DiNG0xdtHFNq9LVBDvec7aLxCwkA9qTCHU}
+```
+ 
 ```
 220 (vsFTPd 3.0.3)
 
@@ -128,6 +188,19 @@ QUIT
 - Flag: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_lUhvSdRHEPjx2SGkhL3AT4DiNG0xdtHFNq9LVBDvec7aLxCwkA9qTCHU}
 
 # FTP Login (nc 10.15.42.60 49000)
+
+```
+===== FTP Login =====
+Note: You can exit anytime by typing 'exit'
+
+Apa username yang berhasil digunakan untuk FTP login?
+Format: username
+> sn34ky
+Apa password yang berhasil digunakan untuk FTP login?
+Format: string
+> sup3rsn1ff3r
+Benar! Ini flag-mu: JarkomIT{n0t_s0_s3cur3_ftp_3ZvMs3ZibbtrySJYxKgvG72wyL0ig3hhssiawM0R2OlrquvDwBDLG1N}
+```
 
 ```
 USER sn34ky
