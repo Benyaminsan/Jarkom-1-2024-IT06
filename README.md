@@ -1,10 +1,11 @@
 # Jarkom-1-2024-IT06
 ## Anggota kelompok
-   ### benjamin Khawarizmi Habibi 50272310__
+   ### Benjamin Khawarizmi Habibi 50272310__
    ### Callista Meyra Azizah 5027231060
 
+
 ## Advance Sanity Check
-coba periksa peraturan soal shift, ada suprise - Jane Doe
+```coba periksa peraturan soal shift, ada suprise - Jane Doe```
 
 ![WhatsApp Image 2024-09-18 at 18 43 56_fd9aded0](https://github.com/user-attachments/assets/c6fb06e7-4348-4119-a3ca-ce21bbbf374e)
 
@@ -22,7 +23,8 @@ coba periksa peraturan soal shift, ada suprise - Jane Doe
 
 ![WhatsApp Image 2024-09-18 at 20 40 04_1be7cca8](https://github.com/user-attachments/assets/8507152b-8e12-4da8-9807-06dc43392a55)
 
-```halo mas wkwkw
+```
+halo mas wkwkw
 pesan: submitini ke nc
 eh yg atas salah
 ini yang bener
@@ -45,7 +47,8 @@ email=jarkomsupport%40gmail.com&password=j4rk0mg4c0rbg
 
 ##Surprise
 
-```220 (vsFTPd 3.0.3)
+```
+220 (vsFTPd 3.0.3)
 
 OPTS UTF8 ON
 
