@@ -1,4 +1,4 @@
-# Jarkom-1-2024-IT06
+![image](https://github.com/user-attachments/assets/5adc829a-41a1-4779-8ccd-cbc025f16928)# Jarkom-1-2024-IT06
 ## Anggota kelompok
    ### Benjamin Khawarizmi Habibi 5027231078
    ### Callista Meyra Azizah 5027231060
@@ -33,6 +33,18 @@ Benar! Ini flag-mu: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bm
 ![WhatsApp Image 2024-09-18 at 18 50 46_8090be62](https://github.com/user-attachments/assets/df2b2e48-f250-4be5-b4d6-c41ffa2a275b)
 
 ```dari decode didapatkan penword```
+
+- Dokumentasi:
+
+![image](https://github.com/user-attachments/assets/d02ab90f-4a2a-4917-b07d-16e72ffeb2f7)
+
+![image](https://github.com/user-attachments/assets/cf83b51a-3fff-4237-bd72-c9612bd17aed)
+
+![image](https://github.com/user-attachments/assets/a2047192-9509-4469-9f1f-1882eccfcc31)
+
+
+
+
 - Flag: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bmxnNYiYxCiUqBudYOAOmDDIKK}
 
 ## Pegawai Negeri Sebelah (nc 10.15.42.60 53000)
