@@ -7,6 +7,22 @@
 
 # Write Up
 ## Advance Sanity Check (nc 10.15.42.60 44000)
+
+```
+===== Advanced Sanity Check =====
+Note: You can exit anytime by typing 'exit'
+Apa username pengirim?
+Format: username
+> JaneD03
+Apa nama file yang dikirim?
+Format: filename.extension
+> Clue3.txt
+Ikuti petunjuk untuk mendapatkan pesan rahasia
+Format: string
+> penword
+Benar! Ini flag-mu: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bmxnNYiYxCiUqBudYOAOmDDIKK}
+```
+
 ```coba periksa peraturan soal shift, ada suprise - Jane Doe```
 
 ![WhatsApp Image 2024-09-18 at 18 43 56_fd9aded0](https://github.com/user-attachments/assets/c6fb06e7-4348-4119-a3ca-ce21bbbf374e)
