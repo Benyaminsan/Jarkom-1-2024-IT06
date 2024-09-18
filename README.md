@@ -4,7 +4,9 @@
    ### Callista Meyra Azizah 5027231060
 
 
-## Advance Sanity Check
+
+# Write Up
+## Advance Sanity Check (nc 10.15.42.60 44000)
 ```coba periksa peraturan soal shift, ada suprise - Jane Doe```
 
 ![WhatsApp Image 2024-09-18 at 18 43 56_fd9aded0](https://github.com/user-attachments/assets/c6fb06e7-4348-4119-a3ca-ce21bbbf374e)
@@ -16,10 +18,10 @@
 ```dari decode didapatkan penword```
 - Flag: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bmxnNYiYxCiUqBudYOAOmDDIKK}
 
-## Pegawai Negeri Sebelah
+## Pegawai Negeri Sebelah (nc 10.15.42.60 53000)
 - Flag: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_d4EjysuhNbOdCX7LoT4Z9gnSaL337FHGQYe5n3ieKFehKMpDry7cM4h}
 
-## EZ
+## EZ (nc 10.15.42.60 54000)
 
 ![WhatsApp Image 2024-09-18 at 20 40 04_1be7cca8](https://github.com/user-attachments/assets/8507152b-8e12-4da8-9807-06dc43392a55)
 
@@ -34,7 +36,7 @@ itu ya yg disubmit yang ada e.petiknya
 
 - Flag: JarkomIT{BiAr_aman_Pake_sSh_6kgAozQUg7KBsvScORpWgISPs3zepqu7yIJd9bjAg6alxXZeTwbeEZ}
 
-## Illegal Breakthrough
+## Illegal Breakthrough (nc 10.15.42.60 46000)
 
 ![WhatsApp Image 2024-09-18 at 20 59 46_35a90d67](https://github.com/user-attachments/assets/17bb26ae-d60b-4e97-868d-249bfb524650)
 
@@ -42,10 +44,24 @@ itu ya yg disubmit yang ada e.petiknya
 
 - Flag: JarkomIT{d34th_fr0m_th3_sky_UYeAVgZYgYoKcPKU8JVO2FIbrH1W3pgPc7F6BKOCCE32Q3wBc3JPWW1}
 
-##Corporate Breach
-email=jarkomsupport%40gmail.com&password=j4rk0mg4c0rbg
+## Corporate Breach (nc 10.15.42.60 51000)
 
-##Surprise
+![image](https://github.com/user-attachments/assets/94f5c2a0-48d7-4120-bc2a-298d57fe1249)
+
+```
+Siapa nama attacker?
+Format: string
+> Nakhimov
+Apa email yang digunakan untuk login?
+Format: email@gmail.com
+> jarkomsupport@gmail.com
+Apa password yang digunakan untuk login?
+Format: string
+> j4rk0mg4c0rbg
+```
+- Flag: JarkomIT{supp0rt_k0k_l3m4h_bg_caT1X51I2UoFwpZcw5fVTAUm8G6zDwNEsM4UwCMMTMrx4EXaNPEpG6}
+
+## Surprise (nc 10.15.42.60 48500)
 
 ```
 220 (vsFTPd 3.0.3)
