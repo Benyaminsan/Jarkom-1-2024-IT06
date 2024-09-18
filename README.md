@@ -109,12 +109,30 @@ itu ya yg disubmit yang ada e.petiknya
 
 ## Illegal Breakthrough (nc 10.15.42.60 46000)
 
+Di challanges ini diberikan file pcap/pcapng bernama break, setelah kita membuka filenya dengan wireshark, maka muncul banyak package yang ada.
+
+
 - DOKUMENTASI:
 ![WhatsApp Image 2024-09-18 at 20 59 46_35a90d67](https://github.com/user-attachments/assets/17bb26ae-d60b-4e97-868d-249bfb524650)
 
+karena diberikan pertanyaaan mengenai IP address korbannya kita melihat dari packagenya langsung
+
+![image](https://github.com/user-attachments/assets/6b2e519b-4bd7-4678-bda4-836ee704a2d0)
+
+Setelah itu, diberikan pertanyaan terkait port dan endpoint(yg ditanyakan dengan format /endpoint/path.php
+
 ![WhatsApp Image 2024-09-19 at 00 01 57_6b14430f](https://github.com/user-attachments/assets/32f6f486-4257-4e2f-9ec6-b7d8f3258ac1)
 
+Endpoint bisa dilihat dengan follow tcp stream pada salah satu package 
+![Username Paswd](https://github.com/user-attachments/assets/9c0e9539-c804-4377-a9ac-5ef3b4ec4bb6)
+
+Username dan passwd bisa dilihat juga
 ![WhatsApp Image 2024-09-19 at 00 02 41_d0269ba7](https://github.com/user-attachments/assets/2c6feec5-45e5-4f69-b029-3f4341e6f4d4)
+
+Tools yang digunakan juga sudah terpampang dengan menginputnya dengan format singkat, yaitu ffuf-v2.1.0-deb
+![Toolsnya](https://github.com/user-attachments/assets/0c1cd168-3836-4fbc-abfd-43d1fc61d306)
+
+akhirnya, mendapatkan flagnya
 
 ![WhatsApp Image 2024-09-18 at 20 54 23_cd6f8643](https://github.com/user-attachments/assets/5ae06938-554d-4f39-b7bc-86329f5216d7)
 
