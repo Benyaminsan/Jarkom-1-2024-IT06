@@ -126,3 +126,4 @@ PORT 172,21,80,1,253,130
 
 200 PORT command successful. Consider using PASV.
 ```
+- Flag: JarkomIT{n0t_s0_s3cur3_ftp_3ZvMs3ZibbtrySJYxKgvG72wyL0ig3hhssiawM0R2OlrquvDwBDLG1N}
