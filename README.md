@@ -81,6 +81,7 @@ ini yang bener
 pesan: "jawabannya jawaban"
 itu ya yg disubmit yang ada e.petiknya
 ```
+![WhatsApp Image 2024-09-18 at 20 42 02_c1e2efa4](https://github.com/user-attachments/assets/422a7539-8357-419b-bb4a-f70417a01751)
 
 - Flag: JarkomIT{BiAr_aman_Pake_sSh_6kgAozQUg7KBsvScORpWgISPs3zepqu7yIJd9bjAg6alxXZeTwbeEZ}
 
@@ -138,7 +139,9 @@ Format: string ex. h4lo wor1d
 > g0tchu n0w l1ttl3 m0us3
 Benar! Ini flag-mu: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_lUhvSdRHEPjx2SGkhL3AT4DiNG0xdtHFNq9LVBDvec7aLxCwkA9qTCHU}
 ```
- 
+ ![WhatsApp Image 2024-09-18 at 20 38 22_5ef5c07e](https://github.com/user-attachments/assets/93d4064a-c62d-4114-a67b-a89837b79b16)
+![WhatsApp Image 2024-09-18 at 21 19 39_f3aa4818](https://github.com/user-attachments/assets/8a8073cc-42e8-422c-9c5c-7391e31e5c7a)
+
 ```
 220 (vsFTPd 3.0.3)
 
@@ -183,6 +186,8 @@ QUIT
 
 221 Goodbye.
 ```
+![WhatsApp Image 2024-09-18 at 20 38 22_facd4268](https://github.com/user-attachments/assets/d93c2b03-8913-495e-8254-1fc42d8041b4)
+
 ![WhatsApp Image 2024-09-18 at 21 18 51_201ac555](https://github.com/user-attachments/assets/f0eb0faa-e830-46cc-b374-04901745cebc)
 
 - Flag: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_lUhvSdRHEPjx2SGkhL3AT4DiNG0xdtHFNq9LVBDvec7aLxCwkA9qTCHU}
