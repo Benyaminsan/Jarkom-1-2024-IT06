@@ -8,44 +8,46 @@
 # Write Up
 ## Advance Sanity Check (nc 10.15.42.60 44000)
 
-```
-===== Advanced Sanity Check =====
-Note: You can exit anytime by typing 'exit'
+Pada soal ini, ada beberapa pertanyaan apabila kita memasukkan command nc kepada terminal.
 
+Pertanyaan pertama adalah:
+```
 Apa username pengirim?
 Format: username
-> JaneD03
+```
+Darisana, secara manual menggunakan follow tcp, sehingga memasuki stream berikut.
+![janeD03](https://github.com/user-attachments/assets/8fcbe473-0722-4aad-8ddc-5feba2797a16)
+Maka saya coba memasukkan username JaneD03 tersebut kedalam terminal. 
+Darisana muncullah pertanyaan kedua, yaitu:
+```
 Apa nama file yang dikirim?
 Format: filename.extension
-> Clue3.txt
+```
+Sama seperti sebelumnya, saya follow tcp stream sehingga mendapat yang kira-kira benar, yaitu sebagai berikut:
+![filename clu3 txt + cek ada surprise](https://github.com/user-attachments/assets/54a3a9a5-5a6b-474d-9a14-58734d507853)
+Dan saya masukkan Clu3.txt sebagai jawabannya. Yang berlanjut dengan: 
+```
 Ikuti petunjuk untuk mendapatkan pesan rahasia
 Format: string
-> penword
-Benar! Ini flag-mu: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bmxnNYiYxCiUqBudYOAOmDDIKK}
+```
+Setelah kita analisis dari foto sebelumnya, ada kalimat menarik:
+```
+coba periksa peraturan soal shift, ada suprise - Jane Doe
 ```
 
-```coba periksa peraturan soal shift, ada suprise - Jane Doe```
-
+Dengan itu saya mencoba untuk membuka linktree jarkom dan masuk kedalam peraturan praktikum, kemudian ke bagian peraturan soal shift. Lo and behold, ada string binary64 yang merupakan :
+```cGVud29yZA==```
 ![WhatsApp Image 2024-09-18 at 18 43 56_fd9aded0](https://github.com/user-attachments/assets/c6fb06e7-4348-4119-a3ca-ce21bbbf374e)
 
-```didapatkan cGVud29yZA== ```
-
+Lalu di convert menjadi string biasa:
 ![WhatsApp Image 2024-09-18 at 18 50 46_8090be62](https://github.com/user-attachments/assets/df2b2e48-f250-4be5-b4d6-c41ffa2a275b)
+Terdapat string "penword" didalamnya, maka saya masukkan lagi ke dalam terminal.
 
-```dari decode didapatkan penword```
+- Flag: JarkomIT{8uK4n_S4n1ty_b1a5A_Skz1qBYkSg6XUK9sUQAuwmVghSu551rKRBiPzcAzDvkVFcVam8lteIKK}
+
 
 - Dokumentasi:
-
-![image](https://github.com/user-attachments/assets/d02ab90f-4a2a-4917-b07d-16e72ffeb2f7)
-
-![image](https://github.com/user-attachments/assets/cf83b51a-3fff-4237-bd72-c9612bd17aed)
-
-![image](https://github.com/user-attachments/assets/a2047192-9509-4469-9f1f-1882eccfcc31)
-
-![image](https://github.com/user-attachments/assets/5adc829a-41a1-4779-8ccd-cbc025f16928)
-
-
-- Flag: JarkomIT{8uK4n_S4n1ty_b1a5A_PZsva59iSBLGsLwPMcz5nvnQbSu576bmxnNYiYxCiUqBudYOAOmDDIKK}
+![1](https://github.com/user-attachments/assets/d2bf179a-ed55-4ac7-8b7b-30ac78f38e70)
 
 ## Pegawai Negeri Sebelah (nc 10.15.42.60 53000)
 
