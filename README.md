@@ -41,77 +41,88 @@ Dengan itu saya mencoba untuk membuka linktree jarkom dan masuk kedalam peratura
 
 Lalu di convert menjadi string biasa:
 ![WhatsApp Image 2024-09-18 at 18 50 46_8090be62](https://github.com/user-attachments/assets/df2b2e48-f250-4be5-b4d6-c41ffa2a275b)
-Terdapat string "penword" didalamnya, maka saya masukkan lagi ke dalam terminal.
+Terdapat string "penword" didalamnya, maka saya masukkan ke dalam terminal.
+
+Lalu muncul flagnya:
+```
+Benar! Ini flag-mu: JarkomIT{8uK4n_S4n1ty_b1a5A_Skz1qBYkSg6XUK9sUQAuwmVghSu551rKRBiPzcAzDvkVFcVam8lteIKK}
+```
+
+- Dokumentasi Terminal:
+  
+![1](https://github.com/user-attachments/assets/d2bf179a-ed55-4ac7-8b7b-30ac78f38e70)
 
 - Flag: JarkomIT{8uK4n_S4n1ty_b1a5A_Skz1qBYkSg6XUK9sUQAuwmVghSu551rKRBiPzcAzDvkVFcVam8lteIKK}
 
-
-- Dokumentasi:
-![1](https://github.com/user-attachments/assets/d2bf179a-ed55-4ac7-8b7b-30ac78f38e70)
-
 ## Pegawai Negeri Sebelah (nc 10.15.42.60 53000)
 
+Sama seperti sebelumnya, kita memasukkan command nc diatas kedalam terminal, yang akan mengeluarkan soal sebagai berikut:
 ```
-=====  Pegawai Negeri Sebelah =====
-Note: You can exit anytime by typing 'exit'
-
 Siapa yang memiliki password nNnM%coQuF?
 Format: String
-> Vero Tampubolon
+```
+Sama seperti sebelumnya, saya mencoba follow tcp stream hingga pada stream di bawah ini, lalu memasukkan nNnM%coQuF? pada tool "find" di dalamnya:
+![pegawai pass](https://github.com/user-attachments/assets/feeb362a-10a3-40b3-b2d4-1266e99e6aee)
+Dari sini terlihat yang memiliki passwordnya adalah Vero Tampubolon. Kita masukkan ke dalam terminal, lalu muncul pertanyaan selanjutnya:
+```
 Apa jabatan dari Taufan Kuswandari?
 Format: String
-> Analis Kebijakan
+```
+Sama seperti sebelumnya, kita gunakan tool find lagi dan memasukkan nama Taufan Kuswandari untuk dicari, dan didapatlah jawabannya, Analisis Kebijakan:
+![pegawai taufan](https://github.com/user-attachments/assets/4f9ebd3c-29ef-44bd-b5a5-1402ab359c6d)
+Setelah itu muncullah pertanyaan lagi, pertanyaan kali ini adalah:
+```
 Siapa yang paling awal di list?
 Format: String
-> Cici Mustofa
+```
+Untuk ini kita scroll aja ke paling atas dan copy-paste namanya, Cici Mustofa.
+![pegawai 1](https://github.com/user-attachments/assets/b5e762d6-456e-4a74-b6ed-0ba753d52b3c)
+Pertanyaan muncul lagi, yaitu:
+```
 Apa password paling akhir dari list?
 Format: String
-> RyxaJPv^yF
-Benar! Ini flag-mu: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_d4EjysuhNbOdCX7LoT4Z9gnSaL337FHGQYe5n3ieKFehKMpDry7cM4h}
+```
+Seperti sebelumnya, kita ke paling bawah dan copy paste passwordnya, yaitu RyxaJPv^yF
+ ![pegawai terakhir](https://github.com/user-attachments/assets/ef144077-bbcf-4dd3-994e-2abe0cdafad4)
+ Lalu muncul flagnya:
+```
+Benar! Ini flag-mu: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_vtgqiVzSDRb5vZ0wu2wXiiK7WL3n2Dbu77NR0BrNTbC4eMuEq0vgM4h}  
 ```
 
-- DOKUMENTASI:
-![image](https://github.com/user-attachments/assets/6680c49f-0906-48b1-964b-629274f7c143)
+ - Dokumentasi Terminal:
+   
+![pegawau](https://github.com/user-attachments/assets/c5aa0cc1-8996-45a9-ae87-dafb522d0b8f)
 
-![image](https://github.com/user-attachments/assets/afe69c1a-71a1-4002-99ab-19295815338e)
-
-![image](https://github.com/user-attachments/assets/fb75ccaa-634c-4964-a332-9edfa821b405)
-
-![image](https://github.com/user-attachments/assets/daa8108c-6bb8-49f6-b9a0-8d6d7305cd6c)
-- Flag: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_d4EjysuhNbOdCX7LoT4Z9gnSaL337FHGQYe5n3ieKFehKMpDry7cM4h}
+ - Flag: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_vtgqiVzSDRb5vZ0wu2wXiiK7WL3n2Dbu77NR0BrNTbC4eMuEq0vgM4h}
 
 ## EZ (nc 10.15.42.60 54000)
-
+Sama seperti sebelumnya, kita memasukkan comman nc diatas kedalam terminal yang akan me-reveal sebuah pertanyaan:
 ```
-===== EZ =====
-Note: You can exit anytime by typing 'exit'
-
 Temukan jawaban dari log tersebut
 Format: string ex. kata kata
-> jawabannya jawaban
+```
+Lalu, secara manual follow tcp stream hingga mendapatkan sesuatu yang menarik, yaitu:
+![string rahasia halo mas](https://github.com/user-attachments/assets/b553f12f-9283-459d-a67c-d019bd0f81b4)
+Maka kita masukkan "jawabannya jawaban" sebagai jawabannya. Kemudian muncul pertanyaan selanjutnya:
+```
 Port berapa yang digunakan service tersebut
 Format: xxxx: ex. 443
-> 1234
-Benar! Ini flag-mu: JarkomIT{BiAr_aman_Pake_sSh_6kgAozQUg7KBsvScORpWgISPs3zepqu7yIJd9bjAg6alxXZeTwbeEZ}
-```                
 ```
-halo mas wkwkw
-pesan: submitini ke nc
-eh yg atas salah
-ini yang bener
-pesan: "jawabannya jawaban"
-itu ya yg disubmit yang ada e.petiknya
+Darisini kita lihat port yang digunakan, yaitu 1234:
+![WhatsApp Image 2024-09-18 at 20 42 02_7c253e47](https://github.com/user-attachments/assets/e5ed7ade-906a-4e79-bf4c-ead242c28acb)
+Lalu muncul flagnya:
 ```
-- DOKUMENTASI:
-![WhatsApp Image 2024-09-18 at 20 42 02_c1e2efa4](https://github.com/user-attachments/assets/422a7539-8357-419b-bb4a-f70417a01751)
+Benar! Ini flag-mu: JarkomIT{BiAr_aman_Pake_sSh_0JHNcd71asFzioyKGzm8Ukf3P3zUHfNr25O9KhH5qBjJAvq9VN6dEZ}
+```
 
-![WhatsApp Image 2024-09-18 at 20 40 04_1be7cca8](https://github.com/user-attachments/assets/8507152b-8e12-4da8-9807-06dc43392a55)
+- Dokumentasi Terminal:
 
-- Flag: JarkomIT{BiAr_aman_Pake_sSh_6kgAozQUg7KBsvScORpWgISPs3zepqu7yIJd9bjAg6alxXZeTwbeEZ}
+ ![ez](https://github.com/user-attachments/assets/43173132-ccde-426c-b380-4552c789c41a)
 
+- Flag: JarkomIT{BiAr_aman_Pake_sSh_0JHNcd71asFzioyKGzm8Ukf3P3zUHfNr25O9KhH5qBjJAvq9VN6dEZ} 
 ## Illegal Breakthrough (nc 10.15.42.60 46000)
 
-Di challanges ini diberikan file pcap/pcapng bernama break, setelah kita membuka filenya dengan wireshark, maka muncul banyak package yang ada.
+Di challenge ini diberikan file pcap/pcapng bernama break, setelah kita membuka filenya dengan wireshark, maka muncul banyak package yang ada.
 
 
 - DOKUMENTASI:
@@ -141,138 +152,89 @@ akhirnya, mendapatkan flagnya
 - Flag: JarkomIT{d34th_fr0m_th3_sky_UYeAVgZYgYoKcPKU8JVO2FIbrH1W3pgPc7F6BKOCCE32Q3wBc3JPWW1}
 
 ## Corporate Breach (nc 10.15.42.60 51000)
-
+Gunakan command nc pada terminal, yang akan me-reveal pertanyaan sebagai berikut:
 ```
 Siapa nama attacker?
 Format: string
-> Nakhimov
+```
+Dengan follow tcp stream beberapa kali, saya temukan kalimat berikut:
+![user nakhimov](https://github.com/user-attachments/assets/94235d5a-8816-4c99-9fd4-becf38673fb9)
+Dengan asumsi bahwa "Nakhimov" ini attackernya, maka dimasukkan ke dalam terminal. Selanjutnya, ada pertanyaan baru:
+```
 Apa email yang digunakan untuk login?
 Format: email@gmail.com
-> jarkomsupport@gmail.com
+```
+Dari sekian banyak login attempt yang Nakhimov lakukan, saya memilih email dan password yang ini karena tidak ada kata-kata "login attempt failed" dan semacamnya, yang memberikan indikasi bahwa login attempt yang dibawah ini itu  benar:
+![email](https://github.com/user-attachments/assets/72f5a512-2a7d-40e0-b71e-fd349d94a7f4)
+Setelah email kita diminta memasukkan password, maka ditulislah password diatas, j4rk0mg4c0rbg :
+```
 Apa password yang digunakan untuk login?
 Format: string
-> j4rk0mg4c0rbg
 ```
-- DOKUMENTASI:
-![image](https://github.com/user-attachments/assets/94f5c2a0-48d7-4120-bc2a-298d57fe1249)
+Lalu muncullah flag:
+```
+Benar! Ini flag-mu: JarkomIT{supp0rt_k0k_l3m4h_bg_f68jgtOBxq5UC4uueQ6u1LDQrG6i5sYwhURcm3VbaGde8oo9ZYlsG6}
+```
 
-- Flag: JarkomIT{supp0rt_k0k_l3m4h_bg_caT1X51I2UoFwpZcw5fVTAUm8G6zDwNEsM4UwCMMTMrx4EXaNPEpG6}
+- Dokumentasi Terminal:
+
+![corporate](https://github.com/user-attachments/assets/2657884c-66b6-46e1-a3e9-c88b0c1a705c)
+
+- Flag: JarkomIT{supp0rt_k0k_l3m4h_bg_f68jgtOBxq5UC4uueQ6u1LDQrG6i5sYwhURcm3VbaGde8oo9ZYlsG6}
 
 ## Surprise (nc 10.15.42.60 48500)
-
+Saya masukkan nc kedalam terminal seperti sebelum-sebelumnya, lalu muncul pertanyaamn:
 ```
-===== Surprise =====
-Note: You can exit anytime by typing 'exit'
-
 Apa service yang digunakan pada FTP server?
 Format: service ver 
 ex. proFTPd 1.1.0
-> FTPd 3.0.3
-Jawaban salah
-
-Apa service yang digunakan pada FTP server?
-Format: service ver 
-ex. proFTPd 1.1.0
-> vsFTPd 3.0.3
-
+```
+Dari sini, saya follow tcp stream lagi sehingga muncul berikut:
+![Screenshot (249)](https://github.com/user-attachments/assets/7db1565d-9929-4e26-9285-381d3654da2e)
+Karena yang diminta adalah service ver yang berakhiran dengan versinya (seperti 1.1.0), saya berpikir mungkin yang dikotaki adalah jawabannya, yang ternyata benar.
+Muncullah soal kedua:
+```
 Apa nama file yang dikirim oleh attacker?
 Format: filename.extension
-> Jawaban salah
-
-Apa nama file yang dikirim oleh attacker?
-Format: filename.extension
-> g0tcha.cpp
+```
+Dari sini dalam tcp stream yang sama, kita scroll kebawah dan ditemukanlah sebuah file cpp, yaitu file c++. Kita masukkan sebagai jawaban, dan ternyata benar juga. Muncullah soal selanjutnya:
+```
 Apa pesan rahasia yang ditinggalkan oleh attacker?
 Format: string ex. h4lo wor1d
-> g0tchu n0w l1ttl3 m0us3
-Benar! Ini flag-mu: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_lUhvSdRHEPjx2SGkhL3AT4DiNG0xdtHFNq9LVBDvec7aLxCwkA9qTCHU}
+```
+Dari sini, saya coba follow ke stream selanjutnya yang membawa kita ke sebuah program c++. Kita coba jalankan, dan gunakan hasilnya sebagai jawaban.
+![sebelum gotchu](https://github.com/user-attachments/assets/5a34106c-1878-4175-82be-cb8cc81b0e7a)
+Hasil compile:
+![gotchu now](https://github.com/user-attachments/assets/27174847-ba23-4d10-9c19-dcdea6d95907)
+Lalu dapatlah Flagnya:
+```
+Benar! Ini flag-mu: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_xu3chlvqPnrqxqoH6crAojzgpG06uLkbVQe3IvH1sf306gANQPSNTCHU}  
 ```
 
-- DOKUMENTASI:
-![image](https://github.com/user-attachments/assets/0b8c7787-9b83-4404-ab24-60aa08f13eb7)
+- Dokumentasi Terminal:
 
-![WhatsApp Image 2024-09-18 at 21 19 39_f3aa4818](https://github.com/user-attachments/assets/8a8073cc-42e8-422c-9c5c-7391e31e5c7a)
-
-```
-220 (vsFTPd 3.0.3)
-
-OPTS UTF8 ON
-
-200 Always in UTF8 mode.
-
-USER orange
-
-331 Please specify the password.
-
-PASS heather
-
-530 Login incorrect.
-
-USER nicole
-
-331 Please specify the password.
-
-PASS ginger
-
-530 Login incorrect.
-
-USER sn34ky
-
-331 Please specify the password.
-
-PASS sup3rsn1ff3r
-
-230 Login successful.
-
-PORT 172,21,80,1,253,130
-
-200 PORT command successful. Consider using PASV.
-
-STOR g0tcha.cpp
-
-150 Ok to send data.
-226 Transfer complete.
-
-QUIT
-
-221 Goodbye.
-```
-- DOKUMENTASI:
-![WhatsApp Image 2024-09-18 at 20 38 22_facd4268](https://github.com/user-attachments/assets/d93c2b03-8913-495e-8254-1fc42d8041b4)
-
-![WhatsApp Image 2024-09-18 at 21 18 51_201ac555](https://github.com/user-attachments/assets/f0eb0faa-e830-46cc-b374-04901745cebc)
-
-- Flag: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_lUhvSdRHEPjx2SGkhL3AT4DiNG0xdtHFNq9LVBDvec7aLxCwkA9qTCHU}
-
+![surprise](https://github.com/user-attachments/assets/9029b6d2-17eb-4b3b-9b7f-6a2fa7e3f522)
+- Flag: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_xu3chlvqPnrqxqoH6crAojzgpG06uLkbVQe3IvH1sf306gANQPSNTCHU}  
+ 
 # FTP Login (nc 10.15.42.60 49000)
-
+Masukkan nc kedalam terminal yang akan membuat pertanyaan berikut muncul:
 ```
-===== FTP Login =====
-Note: You can exit anytime by typing 'exit'
-
 Apa username yang berhasil digunakan untuk FTP login?
 Format: username
-> sn34ky
+```
+Kita cek tcp streamnya lagi, sehingga muncullah jawabannya. Mengapa saya memilih ini? karena di dalam attempt yang lain, semuanya incorrect kecuali sebagai berikut.
+![user sneaky](https://github.com/user-attachments/assets/7311bc01-f613-4cdc-a776-f78d0c2454ff)
+```
 Apa password yang berhasil digunakan untuk FTP login?
 Format: string
-> sup3rsn1ff3r
-Benar! Ini flag-mu: JarkomIT{n0t_s0_s3cur3_ftp_3ZvMs3ZibbtrySJYxKgvG72wyL0ig3hhssiawM0R2OlrquvDwBDLG1N}
+```
+Untuk jawaban sudah ada pada gambar sebelumnya. Selanjutnya kita dapat flag:
+```
+Benar! Ini flag-mu: JarkomIT{n0t_s0_s3cur3_ftp_QknRz3qFMAI37nKe2kVbygytUL0V0cSmTlid2a6IlaVIROPNATdEG1N} 
 ```
 
-```
-USER sn34ky
+- Dokumentasi Terminal:
+  
+ ![2](https://github.com/user-attachments/assets/28d155e1-b3ee-4720-8169-a937114e5afd)
 
-331 Please specify the password.
-
-PASS sup3rsn1ff3r
-
-230 Login successful.
-
-PORT 172,21,80,1,253,130
-
-200 PORT command successful. Consider using PASV.
-```
-- DOKUMENTASI:
-![image](https://github.com/user-attachments/assets/89e0afff-5d9e-41f4-a604-211374434269)
-
-- Flag: JarkomIT{n0t_s0_s3cur3_ftp_3ZvMs3ZibbtrySJYxKgvG72wyL0ig3hhssiawM0R2OlrquvDwBDLG1N}
+- Flag: JarkomIT{n0t_s0_s3cur3_ftp_QknRz3qFMAI37nKe2kVbygytUL0V0cSmTlid2a6IlaVIROPNATdEG1N} 
