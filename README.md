@@ -3,10 +3,13 @@
    ### Benjamin Khawarizmi Habibi 5027231078
    ### Callista Meyra Azizah 5027231060
 
+```
+Note: nc dijalankan di terminal, dan file pcap dijalankan di wireshark sesuai dengan soalnya.
+```
 
 
 # Write Up
-## Advance Sanity Check (nc 10.15.42.60 44000)
+## Advance Sanity Check (nc 10.15.42.60 44000 // sanity.pcap)
 
 Pada soal ini, ada beberapa pertanyaan apabila kita memasukkan command nc kepada terminal.
 
@@ -54,7 +57,7 @@ Benar! Ini flag-mu: JarkomIT{8uK4n_S4n1ty_b1a5A_Skz1qBYkSg6XUK9sUQAuwmVghSu551rK
 
 - Flag: JarkomIT{8uK4n_S4n1ty_b1a5A_Skz1qBYkSg6XUK9sUQAuwmVghSu551rKRBiPzcAzDvkVFcVam8lteIKK}
 
-## Pegawai Negeri Sebelah (nc 10.15.42.60 53000)
+## Pegawai Negeri Sebelah (nc 10.15.42.60 53000 // rahasia.pcap)
 
 Sama seperti sebelumnya, kita memasukkan command nc diatas kedalam terminal, yang akan mengeluarkan soal sebagai berikut:
 ```
@@ -95,7 +98,7 @@ Benar! Ini flag-mu: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_vtgqiVzSDRb5vZ0wu2wXii
 
  - Flag: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_vtgqiVzSDRb5vZ0wu2wXiiK7WL3n2Dbu77NR0BrNTbC4eMuEq0vgM4h}
 
-## EZ (nc 10.15.42.60 54000)
+## EZ (nc 10.15.42.60 54000 // ez.pcap)
 Sama seperti sebelumnya, kita memasukkan comman nc diatas kedalam terminal yang akan me-reveal sebuah pertanyaan:
 ```
 Temukan jawaban dari log tersebut
@@ -120,7 +123,7 @@ Benar! Ini flag-mu: JarkomIT{BiAr_aman_Pake_sSh_0JHNcd71asFzioyKGzm8Ukf3P3zUHfNr
  ![ez](https://github.com/user-attachments/assets/43173132-ccde-426c-b380-4552c789c41a)
 
 - Flag: JarkomIT{BiAr_aman_Pake_sSh_0JHNcd71asFzioyKGzm8Ukf3P3zUHfNr25O9KhH5qBjJAvq9VN6dEZ} 
-## Illegal Breakthrough (nc 10.15.42.60 46000)
+## Illegal Breakthrough (nc 10.15.42.60 46000 // break.pcap)
 
 Di challenge ini diberikan file pcap/pcapng bernama break, setelah kita membuka filenya dengan wireshark, maka muncul banyak package yang ada.
 
@@ -151,7 +154,7 @@ akhirnya, mendapatkan flagnya
 
 - Flag: JarkomIT{d34th_fr0m_th3_sky_UYeAVgZYgYoKcPKU8JVO2FIbrH1W3pgPc7F6BKOCCE32Q3wBc3JPWW1}
 
-## Corporate Breach (nc 10.15.42.60 51000)
+## Corporate Breach (nc 10.15.42.60 51000 // breach.pcap)
 Gunakan command nc pada terminal, yang akan me-reveal pertanyaan sebagai berikut:
 ```
 Siapa nama attacker?
@@ -182,7 +185,7 @@ Benar! Ini flag-mu: JarkomIT{supp0rt_k0k_l3m4h_bg_f68jgtOBxq5UC4uueQ6u1LDQrG6i5s
 
 - Flag: JarkomIT{supp0rt_k0k_l3m4h_bg_f68jgtOBxq5UC4uueQ6u1LDQrG6i5sYwhURcm3VbaGde8oo9ZYlsG6}
 
-## Surprise (nc 10.15.42.60 48500)
+## Surprise (nc 10.15.42.60 48500 // ftplogin.pcap)
 Saya masukkan nc kedalam terminal seperti sebelum-sebelumnya, lalu muncul pertanyaamn:
 ```
 Apa service yang digunakan pada FTP server?
@@ -216,7 +219,7 @@ Benar! Ini flag-mu: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_xu3chlvqPnrqxqoH6crAojzgp
 ![surprise](https://github.com/user-attachments/assets/9029b6d2-17eb-4b3b-9b7f-6a2fa7e3f522)
 - Flag: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_xu3chlvqPnrqxqoH6crAojzgpG06uLkbVQe3IvH1sf306gANQPSNTCHU}  
  
-# FTP Login (nc 10.15.42.60 49000)
+# FTP Login (nc 10.15.42.60 49000 // ftplogin.pcap)
 Masukkan nc kedalam terminal yang akan membuat pertanyaan berikut muncul:
 ```
 Apa username yang berhasil digunakan untuk FTP login?
