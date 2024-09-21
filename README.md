@@ -240,4 +240,80 @@ Benar! Ini flag-mu: JarkomIT{n0t_s0_s3cur3_ftp_QknRz3qFMAI37nKe2kVbygytUL0V0cSmT
   
  ![2](https://github.com/user-attachments/assets/28d155e1-b3ee-4720-8169-a937114e5afd)
 
-- Flag: JarkomIT{n0t_s0_s3cur3_ftp_QknRz3qFMAI37nKe2kVbygytUL0V0cSmTlid2a6IlaVIROPNATdEG1N} 
+- Flag: JarkomIT{n0t_s0_s3cur3_ftp_QknRz3qFMAI37nKe2kVbygytUL0V0cSmTlid2a6IlaVIROPNATdEG1N}
+
+
+---
+# Revisi
+---
+## Baby Hengker (nc 10.15.42.60 55000)
+Challanges dari baby hengker, lebih mengarah ke analysis HID keyboard dari hasil ekstraksi paket tertentu yang sudah di filter agar lebih tepat lagi.
+
+Pertama kita buka
+```
+nc 10.15.42.60 55000
+```
+
+Setelah itu, muncul pertanyaan yaitu, terkait waktu :
+![pertanyaan pertama](https://github.com/user-attachments/assets/ce10c908-8b9b-40d9-be87-0a1b296bda6b)
+
+Jawabannya cukup simpel, karena bisa dilihat dari salah satu paket yang ada, bila salah memasukkan jawaban, tinggal masukkan beberapa jawaban hingga ketemu (karena paketnya hanya sedikit).
+Setelah tahu waktunya, sekarang mencari kata kata yang diketik oleh penyerang. Bagaimana cara mengetahuinya?
+
+Pertama lihat dengan seksama seluruh informasi data yang ada di paketnya, di case ini kita menemukan HID Data
+![ada HID Data di salah satu paket](https://github.com/user-attachments/assets/68a2a407-e669-45a4-9473-18e0b1ca2396)
+Dalam paketnya lainnya juga ada, maka dari itu bisa diasumsikan bahwa HID data ini perlu didecode agar menjadi text yang setidaknya bisa dibaca.
+
+HID(Human Interface Device), secara sederhana adalah alat agar manusia bisa memberikan input ke komputer semacam mouse, keyboard, game controller,dll sehingga komputer bisa menerima input dari alat-alat tadi untuk menjelankan sesuatu. Dalam case ini ada HID data berupa seperti ini [0x02, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00], yang mana ini merupakan HID data dari keyboard USB.
+untuk lengkapnya bisa melihat referensi ini:
+
+[https://usb.org/sites/default/files/documents/hut1_12v2.pdf]
+[https://learn.microsoft.com/id-id/windows-hardware/drivers/hid/]
+
+Melihat itu, kami berencana untuk memfilter beberapa paket agar proses decodenya sempurna dari
+
+```
+Sorce 1.2.1 ke host, tapi dengan keterangan info hanya URB_interrupt
+```
+
+Karena kalau semisal memilih paket host ke 1.2.1 hasil decodenya tidak ada, seperti ini:
+![Filter 1 21  ke host, lalu select](https://github.com/user-attachments/assets/6ed85ca5-da4e-4bc2-9b15-7c93221b6251)
+
+sebelum itu, kita juga bisa membuat filter dengan cepat 1.2.1 ke host, bisa dengan :
+![kalau mau cepet filter package khusus](https://github.com/user-attachments/assets/f2fbb88e-3e8c-450c-9c11-e7fb7bd18406)
+
+biar bisa otomatis ke filter secara spesifik, lanjut untuk exportfile dengan seperti ini :
+![exportfilenya](https://github.com/user-attachments/assets/c02c27ed-d38f-4080-8c4b-4411e9b6a0e2)
+
+Setelah kita melakukan exportfile berupa pcap, kita fokus untuk decode dalam filenya dengan bantuan beberapa source github seperti :
+https://gist.github.com/not-inept/3219ca6e56d62594c1be9e6f0c6067af
+ataupun penjelasannya singkatnya disini :
+https://github.com/TeamRocketIst/ctf-usb-keyboard-parser?tab=readme-ov-file
+
+setelah melakukan git clone ke github tersebut, kita tinggal memproses file pcap hasil export dengan tshark command dari githubnya sendiri, dengan command :
+
+```
+tshark -r ./usb.pcap -Y 'usb.capdata && usb.data_len == 8' -T fields -e usb.capdata > (contohnamafile.txt)
+```
+
+agar hasil decode HID data bisa lebih bisa terlihat seperti ini:
+![HasilexportfilePCAP](https://github.com/user-attachments/assets/59a7b65f-70d2-4583-9351-3d0d1695b744)
+
+setelah itu jalankan python untuk membuat hasil file TXT bisa terbaca:
+![Decode file txtnya](https://github.com/user-attachments/assets/33cafe0d-aa14-41f4-a380-1c5ca15b1723)
+
+setelah mengethaui kata-kata yang diketik, kita tinggal masukkan ke pertanyaan tadi:
+![Jawabannya salah](https://github.com/user-attachments/assets/86435487-f34c-44fa-8e13-93c068b59016)
+
+Namun, jawabannya salah sehingga membuat saya terus mengetik jawaban yang kemungkinan mendekati maksudnya: 
+![Ketemu flagnya](https://github.com/user-attachments/assets/4473bdcd-40b6-455a-bb1d-332d5d1dc5fe)
+
+Akhirnya, ketemu flagnya
+
+
+ 
+
+
+
+
+
