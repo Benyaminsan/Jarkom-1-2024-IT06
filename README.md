@@ -301,6 +301,7 @@ agar hasil decode HID data bisa lebih bisa terlihat seperti ini:
 
 setelah itu jalankan python dengan syntax yang sudah ada dari githunya sendiri [disini](https://github.com/TeamRocketIst/ctf-usb-keyboard-parser/blob/master/usbkeyboard.py) untuk membuat hasil file TXT bisa terbaca:
 ![Decode file txtnya](https://github.com/user-attachments/assets/33cafe0d-aa14-41f4-a380-1c5ca15b1723)
+
 Note : saya menggunakan syntax python berbeda namun tetap hasilnya bisa sama, karena dari device saya sendiri ada kesalahan syantaxnya sehingga perlu saya perbaiki ulang file pythonya agar bisa melakukan decodenya. Maka dari itu, nama filenya [decodefilebaru.py](https://github.com/Benyaminsan/Jarkom-1-IT06-2024/blob/main/filedecodebaru.py)
 
 setelah mengethaui kata-kata yang diketik, kita tinggal masukkan ke pertanyaan tadi:
