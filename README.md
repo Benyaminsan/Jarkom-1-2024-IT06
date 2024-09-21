@@ -293,7 +293,7 @@ https://github.com/TeamRocketIst/ctf-usb-keyboard-parser?tab=readme-ov-file
 setelah melakukan git clone ke github tersebut, kita tinggal memproses file pcap hasil export dengan tshark command dari githubnya sendiri, dengan command :
 
 ```
-tshark -r ./usb.pcap -Y 'usb.capdata && usb.data_len == 8' -T fields -e usb.capdata > (contohnamafile.txt)
+tshark -r ./(namafilemu).pcap -Y 'usb.capdata && usb.data_len == 8' -T fields -e usb.capdata > (contohnamafile.txt)
 ```
 
 agar hasil decode HID data bisa lebih bisa terlihat seperti ini:
