@@ -1,4 +1,4 @@
-# Jarkom-1-2024-IT06
+# Jarkom-1-IT06-2024
 ## Anggota kelompok
    ### Benjamin Khawarizmi Habibi 5027231078
    ### Callista Meyra Azizah 5027231060
