@@ -276,7 +276,7 @@ Melihat itu, kami berencana untuk memfilter beberapa paket agar proses decodenya
 Sorce 1.2.1 ke host, tapi dengan keterangan info hanya URB_interrupt
 ```
 
-Karena kalau semisal memilih paket host ke 1.2.1 hasil decodenya tidak ada, seperti ini:
+Karena kalau semisal memilih paket host ke 1.2.1 hasil decodenya tidak ada (saya sudah mencoba) 
 ![Filter 1 21  ke host, lalu select](https://github.com/user-attachments/assets/6ed85ca5-da4e-4bc2-9b15-7c93221b6251)
 
 sebelum itu, kita juga bisa membuat filter dengan cepat 1.2.1 ke host, bisa dengan :
